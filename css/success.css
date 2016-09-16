@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body{
+	background:#F0F2F2;
+}
+
+.successmain{
+	width:998px;
+	height:370px;
+	border: 1px solid #e2e2e2;
+	margin:20px auto 0;
+	background:#fff url(../img/icoSuc.jpg) no-repeat 467px 60px;
+}
+
+.successmain p{
+	font-size:18px;
+	height:38px;
+	margin-top: 142px;
+	text-align: center;
+	line-height: 38px;
+	color:#fc62af;
+}
+
+.successmain .tiaozhuan{
+	height:32px;
+	margin-top:117px;
+	text-align: center;
+	line-height: 32px;
+}
+
+.successmain .tiaozhuan .hong{
+	color:red;
+}
+
+.successmain .tiaozhuan a:hover{
+	text-decoration: underline;
+}
+

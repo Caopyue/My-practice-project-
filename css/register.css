@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+body{
+	background:#fff;
+}
+
+.register{
+	width:965px;
+	height:620px;
+	padding-top:75px;
+	margin:20px auto;
+	position: relative;
+	background:url(../img/register.png) no-repeat 0 112px;
+}
+
+.register .app{
+	display: block;
+	width:400px;
+	height:360px;
+	position: absolute;
+	left:80px;
+	top:160px;
+}
+
+.register .relogo a{
+	width:210px;
+	height:100px;
+	display: block;
+	background:url(../img/relogo.png) no-repeat;
+}
+
+.register .reglist{
+	position: absolute;
+	left: 610px;
+	top: 92px;
+	width: 304px;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+	padding: 0 20px 20px;
+}
+
+
+.register .reglist .regtit{
+	color: #f450a2;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 13px;
+}
+
+.register .reglist .regtit .regl{
+	font-size:20px;
+}
+
+.register .reglist .phonebox{
+	position: relative;
+	height: 56px;
+}
+
+.register .reglist .input{
+	background: rgba(0,0,0,0);
+	border: 0;
+	color: #000;
+	font-size: 14px;
+	height: auto;
+	left: 0;
+	line-height: 1.5;
+	margin: 0;
+	outline: 0;
+	position: relative;
+	top: 0;
+}
+
+.borderstyle{
+	position: relative;
+	background-color: #FFF;
+	border: 1px solid #CFCFCF;
+	box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+}
+
+.register .reglist .phonebox .phonenum .yonghu{
+	display: block;
+	height: 22px;
+	left: 0;
+	position: absolute;
+	top: 6px;
+	width: 38px;
+	z-index: 1;
+	background-position: -37px -10px;
+	background-image:url(../img/sign.png);
+	background-repeat: no-repeat;
+}
+
+.register .reglist .phonebox .phonenum .input{
+	padding: 8px 8px 8px 38px;
+	width: 256px;
+	vertical-align: middle;
+}
+
+.register .reglist .warn{
+	color: #666;
+	display: block;
+	background: snow;
+	line-height: 20px;
+	border: 1px solid #ffbdbf;
+	height: 22px;
+	width: auto;
+	padding: 0 6px;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+	left: 8px;
+	top: -33px;
+}
+
+.register .reglist .warn .sanjiao{
+	display: block;
+	width: 14px;
+	height: 8px;
+	position: absolute;
+	z-index: 13;
+	top: 15px;
+	left: 20px;
+}
+
+
+.recopy{
+	text-align: center;
+	padding: 30px;
+	line-height: 22px;
+	color:#ccc;
+}
+
+.register .reglist .yanzhengma{
+	position: relative;
+	height: 56px;
+}
+
+.register .reglist .yanzhengma .yanzhengbox{
+	width:300px;
+	line-height:35px;
+	float: left;
+}
+
+.register .reglist .yanzhengma .yanzhengbox .yanbox{
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 12px;
+	background-color: #FFF;
+}
+
+.register .reglist .yanzhengma .yanzhengbox .yanbox .input{
+	padding: 8px;
+	width: 90px;
+	vertical-align: middle;
+	outline:0;
+}
+
+.register .reglist .yanzhengma .yanzhengbox .yanzhengtu{
+	height: 35px;
+	width: 90px;
+	line-height: 35px;
+	background:url(../img/yanzhengma.jpg) no-repeat;
+	overflow: hidden;
+	margin-right: 12px;
+	font-size:18px;
+	color:#E8E8E8;
+	text-align: center;
+}
+
+.register .reglist .yanzhengma .yanzhengbox .changeyzma{
+	cursor: pointer;
+}
+
+.register .reglist .yanzhengma .warn{
+	display: none;
+}
+
+.register .reglist .yanzhengma .yanzhengbox .changeyzma:hover{
+	color:#fc62af;
+}
+
+.register .reglist .duanxin{
+	position: relative;
+	height: 56px;
+}
+
+.register .reglist .duanxinbox{
+	margin-right:10px;
+}
+
+.register .reglist .duanxinbox .input{
+	height:19px;
+	padding: 8px;
+	width: 130px;
+	
+}
+
+.register .reglist .getduanxin{
+	float: left;
+	cursor: pointer;
+	background: linear-gradient(to bottom,#fcfcfc,#f2f2f2);
+	background:-moz-linear-gradient(top,#fcfcfc,#f2f2f2);
+	border: 1px solid #d9d9d9;
+	padding: 0 8px;
+	display: inline-block;
+	line-height: 35px;
+	height: 35px;
+	font-weight: 700;
+	color: #666;
+	text-align: center;
+	width: 128px;
+}
+
+.register .reglist .paswordbox{
+	position: relative;
+	height: 56px;
+}
+
+.register .reglist .paswordbox .paswordnum .pasword{
+	display: block;
+	height: 22px;
+	left: 0;
+	position: absolute;
+	top: 6px;
+	width: 38px;
+	z-index: 1;
+	background-position: -37px -50px;
+	background-image:url(../img/sign.png);
+	background-repeat: no-repeat;
+}
+
+.register .reglist .paswordbox .paswordnum .input{
+	padding: 8px 8px 8px 38px;
+	width: 256px;
+	vertical-align: middle;
+}
+
+.register .reglist .Rpaswordbox{
+	position: relative;
+	height: 56px;
+}
+
+.register .reglist .Rpaswordbox .Rpaswordnum .Rpasword{
+	display: block;
+	height: 22px;
+	left: 0;
+	position: absolute;
+	top: 6px;
+	width: 38px;
+	z-index: 1;
+	background-position: -37px -50px;
+	background-image:url(../img/sign.png);
+	background-repeat: no-repeat;
+}
+
+.register .reglist .Rpaswordbox .Rpaswordnum .input{
+	padding: 8px 8px 8px 38px;
+	width: 256px;
+	vertical-align: middle;
+}
+
+.register .reglist .agreemia{
+	
+	position: relative;
+	height: 30px;
+}
+
+.register .reglist .agreemia .agreemain{
+	margin-top: 15px;
+	color: #a9a9a9;
+	vertical-align: -2px;
+	font-size: 14px;
+}
+
+.register .reglist .agreemia .agreemain a{
+	color:#fc62af;	
+}
+
+.register .reglist .agreemia .agreemain a:hover{
+	text-decoration: underline;
+}
+
+.register .reglist .registerbtn{
+	margin-top: 15px;
+}
+
+.register .reglist .registerbtn a{
+	width:85%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #F450A2;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 4px 24px 7px;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+}
+
+
+
+
+
+

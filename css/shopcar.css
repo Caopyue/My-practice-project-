@@ -1,0 +1,381 @@
+.jiesuan-logo {
+	width: 100%;
+	height: 138px;
+}
+
+.jiesuan-logo .jiesuan-main {
+	width: 1000px;
+	margin: 0 auto;
+	height: 138px;
+}
+
+.jiesuan-logo .jiesuan-main .thelogo {
+	width: 546px;
+	height: 100px;
+	display: inline;
+}
+
+.jiesuan-logo .jiesuan-main .thelogo a {
+	display: block;
+	width: 210px;
+	height: 100px;
+	background: url(../img/logo.png) no-repeat;
+}
+
+.jiesuan-logo .jiesuan-main .jiesuan {
+	width: 454px;
+	height: 80px;
+}
+
+.jiesuan-logo .jiesuan-main .step {
+	width: 435px;
+	height: 42px;
+	float: right;
+	margin-top: 30px;
+	line-height: 42px;
+	background: url(../img/step.png) no-repeat;
+}
+
+.jiesuan-logo .jiesuan-main .step li {
+	float: left;
+	width: 144px;
+	text-align: center;
+}
+
+.jiesuan-logo .jiesuan-main .step li.current {
+	color: #fff;
+}
+
+
+/**************************************商品列表**********************************************/
+
+.goodslist {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.goodslist .car-title {
+	border-bottom: 2px solid #eaeaea;
+	border-top: none;
+	padding: 10px 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 24px;
+	color: #666;
+}
+
+.goodslist .car-title span {
+	border-bottom: 2px solid #fa4b9b;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	color: #333;
+}
+
+.car-menu {
+	padding: 15px;
+	background: #fff;
+	overflow: hidden
+}
+
+.car-menu div {
+	float: left;
+}
+
+.car-menu .ci {
+	text-align: center;
+	padding: 2px 0;
+}
+
+.checkall {
+	vertical-align: middle;
+	margin-bottom: 0;
+	margin-right: 5px
+}
+
+.ci0 {
+	width: 87px;
+	text-align: left!important;
+	margin-left: 20px
+}
+
+.ci0 .inputwarp {
+	position: relative;
+	top: -4px;
+}
+
+.inputwarp {
+	background: url(../img/carcheck.png);
+	background-repeat: repeat-y;
+	width: 23px;
+	height: 22px;
+	display: inline-block;
+	position: relative;
+	left: 2px;
+}
+
+.checkall {
+	vertical-align: middle;
+	margin-bottom: 0;
+	margin-right: 5px;
+	width: 100%;
+	height: 80%;
+	line-height: normal;
+	outline: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.nocheck {
+	background-position: 0 2px;
+}
+
+.checked {
+	background-position: 0 -176px;
+}
+
+.ci1 {
+	width: 280px
+}
+
+.ci2,
+.ci3,
+.ci4,
+.ci5,
+.ci6 {
+	width: 113px;
+	border-left: 1px solid #ddd
+}
+
+.carlist {
+	padding: 0 15px;
+}
+
+.carlist .listmain {
+	border: 1px solid #ededed;
+}
+
+.carlist .listmain .listtit {
+	padding: 14px 26px 14px 20px;
+	background: #fafafa;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.carlist .listmain .listtit div {
+	float: left;
+	margin-top: 2px;
+	padding-bottom: 2px;
+}
+
+.carlist .listmain .listtit .titwords {
+	margin-left: 5px;
+	margin-top: 4px!important;
+	font-size: 18px;
+	color: #333;
+	font-family: 'Microsoft YaHei';
+}
+
+.carlist .listmain .everygoods {
+	background: #fff;
+}
+
+.carlist .listmain .everygoods .thegood {
+	margin: 0;
+	padding: 12px 0;
+	padding-left: 14px;
+}
+
+.dasborder {
+	border-bottom: 1px dashed #e6e6e6;
+}
+
+.carlist .listmain .everygoods .thegood div {
+	float: left;
+}
+
+.carlist .listmain .everygoods .thegood .goodcheck {
+	position: relative;
+	/*z-index: 2;*/
+	background: url(../img/carcheck2.png);
+	background-repeat: repeat-y;
+	width: 50px;
+}
+
+.carlist .listmain .everygoods .thegood .ncheck {
+	background-position: 8px 20px;
+}
+
+.carlist .listmain .everygoods .thegood .ycheck {
+	background-position: 8px 92px;
+}
+
+.carlist .listmain .everygoods .thegood .goodcheck .theck {
+	margin-left: 12px;
+	margin-top: 34px;
+	position: relative;
+	top: -10px;
+	height: 20px;
+	vertical-align: middle;
+	margin-bottom: 0;
+	margin-right: 5px;
+	opacity: 0;
+}
+
+.carlist .listmain .everygoods .theimg {
+	position: relative;
+	width: 77px;
+	height: 77px;
+	border: 1px solid #ddd;
+	margin-right: 15px;
+}
+
+.carlist .listmain .everygoods .theimg img {
+	width: 77px;
+	height: 77px;
+	vertical-align: top;
+}
+
+.carlist .listmain .everygoods .thegood .thedes {
+	width: 240px;
+	line-height: 16px;
+}
+
+.carlist .listmain .everygoods .thegood .thedes .goodname {
+	margin-top: 3px;
+	height: 32px;
+	margin-bottom: 6px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.carlist .listmain .everygoods .thegood .goodform {
+	text-align: center;
+	margin-top: 3px;
+	width: 115px;
+	line-height: 16px;
+	color: #999;
+}
+
+.carlist .listmain .everygoods .thegood .theprice {
+	text-align: center;
+	margin-top: 3px;
+	width: 115px;
+}
+
+.carlist .listmain .everygoods .thegood .theprice .theopri {
+	margin-top: 10px;
+	color: #999;
+	text-decoration: line-through;
+}
+
+.carlist .listmain .everygoods .thegood .thenum {
+	width: 115px;
+	margin-top: 3px;
+	text-align: center;
+}
+
+.carlist .listmain .everygoods .thegood .thenum .dpbtn {
+	height: 22px;
+	border: 1px solid #e2e2e2;
+	margin: 0 auto;
+	width: 75px;
+	background-color: #fff;
+	line-height: 22px;
+}
+
+.carlist .listmain .everygoods .thegood .thenum .dpbtn .redu {
+	border-right: 1px solid #e2e2e2;
+	float: left;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../img/jiajian.png) no-repeat;
+	background-position: 0 0;
+}
+
+.carlist .listmain .everygoods .thegood .thenum .dpbtn .num-num {
+	background-color: #FFF;
+	text-align: center;
+	width: 26px;
+	overflow: hidden;
+	border: 0;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+	outline: 0;
+}
+
+.carlist .listmain .everygoods .thegood .thenum .dpbtn .add {
+	display: block;
+	background: url(../img/jiajian.png) no-repeat;
+	background-position: -22px -22px;
+	border-left: 1px solid #e2e2e2;
+	width: 22px;
+	cursor: pointer;
+	line-height: 22px;
+	border: 0;
+	overflow: hidden;
+	height: 22px;
+	outline: 0;
+}
+
+.carlist .listmain .everygoods .thegood .xiaoji {
+	width: 115px;
+	color: #ff69b4;
+	margin-top: 3px;
+	text-align: center;
+}
+
+.carlist .listmain .everygoods .thegood .thedel {
+	width: 48px;
+	margin-left: 30px;
+	margin-top: 3px;
+	text-align: center;
+}
+
+
+.carempty{
+	position: relative;
+	width:1000px;
+	height:239px;
+	margin:0 auto;
+	background:url(../img/shopcar.jpg) no-repeat;
+}
+
+.carempty .empty{
+	position:absolute;
+	top:130px;
+	left:305px;
+	height:32px;
+	line-height:32px;
+	text-align: center;
+}
+.carempty .empty a{
+	font-size:14px;
+	color:#f550a2;
+	margin:0 3px;
+}
+
+.carempty .empty a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

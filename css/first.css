@@ -1,0 +1,451 @@
+@charset "utf-8";
+body{
+	background:#f9f9f9;
+}
+
+/***************************************************banner图**********************************************/
+
+.banner{
+	width:100%;
+	height:480px;
+	background:#fff;
+	position:relative;
+}
+
+.banner .bannermain a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.banner .bannermain .ban{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width:100%;
+	height:480px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.banner .bannermain .ban.banshow{
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+
+.banner .bannermain .banner1{
+	background:url(../img/banner5.jpg) no-repeat center;
+}
+.banner .bannermain .banner2{
+	background:url(../img/banner6.jpg) no-repeat center;
+}
+.banner .bannermain .banner3{
+	background:url(../img/banner4.jpg) no-repeat center;
+}
+.banner .bannermain .banner4{
+	background:url(../img/banner3.jpg) no-repeat center;
+}
+.banner .bannermain .banner5{
+	background:url(../img/banner2.jpg) no-repeat center;
+}
+.banner .bannermain .banner6{
+	background:url(../img/banner1.jpg) no-repeat center;
+}
+
+
+.banner .banbtn{
+	position:absolute;
+	left:50%;
+	margin-left:-550px;
+	bottom:15px;
+	height:24px;
+	z-index: 3;
+}
+
+.banner .banbtn .btnnum{
+	position:absolute;
+	right:0;
+	
+	padding:7px;
+	border-radius: 12px;
+	background:rgba(255,255,255,0.3);
+}
+
+.banner .banbtn .btnnum a{
+	float: left;
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	margin:0 5px;
+	background:#fff;
+}
+
+.banner .banbtn .btnnum a.bannow{
+	background:#fa4b9b;
+}
+
+.goodslogo{
+	height:315px;
+}
+
+.goodslogo .goodlo{
+	background:#fff;
+	margin:10px 0 10px 240px;
+	padding:12px 0 13px 27px;
+}
+
+.goodslogo .goodlo h3{
+	float:left;
+	width:106px;
+	height:80px;
+	font-size: 14px;
+	line-height: 80px;
+	font-weight: 700;
+}
+
+.goodslogo .goodlo a{
+	float:left;
+	margin-right:40px;
+}
+
+.goodslogo .goodlo img{
+	vertical-align: top;
+	width:80px;
+	height: 80px;
+
+}
+
+.goodslogo .newpeople{
+	width:100%;
+	height:190px;
+}
+.goodslogo .newpeople img{
+	vertical-align: top;
+}
+
+/*************************************************************8*为你推荐*****************************************************/
+
+.foryou{
+	min-height: 768px;
+	height:auto !important;
+	height:768px;
+}
+
+.foryou .fortitle{
+	height:80px;
+}
+
+.foryou .fortitle h4{
+	margin-top: 8px;
+	font-size:24px;
+	font-weight: 700;
+	line-height: 72px;
+	height:72px;
+	float: left;
+	color: #222;
+}
+
+.foryou .fortitle span{
+	font-size:18px;
+	line-height: 67px;
+	height:67px;
+	float: left;
+	color:#999;
+	margin:13px 0 0 18px;
+}
+
+.foryou .forgoods{
+	width:1100px;
+	border-top:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+}
+
+.foryou .forgoods .goods{
+	float:left;
+	height:340px;
+	width:219px;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.foryou .forgoods .goods dt{
+	width:219px;
+	height:219px;
+}
+
+.foryou .forgoods .goods:hover dt img{
+	opacity:0.88;
+	filter:alpha(opacity=88);
+}
+
+.foryou .forgoods .goods dt img{
+	width:219px;
+	height:219px;
+	vertical-align: top;
+}
+
+.foryou .forgoods .goods dd{
+	width:189px;
+	height:100px;
+	padding:21px 15px 0;
+	background:#FFFFFF;
+}
+
+.foryou .forgoods .goods dd p{
+	width:189px;
+	height:36px;
+	line-height:20px;
+	font-weight: 700;
+}
+
+.foryou .forgoods .goods dd .nowprice{
+	float:left;
+	color:#fa4b9b;
+	margin-top: 11px;
+	font-weight: 700;
+}
+
+.foryou .forgoods .goods dd .nowprice em{
+	font-size:16px;
+}
+
+.foryou .forgoods .goods dd .oldprice{
+	float:left;
+	margin-top: 17px;
+	font-size:10px;
+	text-decoration: line-through;
+	color:#999999;
+}
+.foryou .forgoods .goods dd i{
+	float:right;
+	display:inline;
+	width:66px;
+	height: 28px;
+	background:#fa4b9b;
+	color:#FFFFFF;
+	border-radius: 14px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 18px;
+}
+.foryou .forgoods .goods dd i:hover{
+	background:#c41569;
+}
+.foryou .forgoods .goods dd strong{
+	color:#666666;
+}
+
+/*****************************************今日特卖*****************************************************/
+.todayhot{
+	min-height: 445px;
+	height: auto !important;
+	height:445px;
+}
+
+
+.todayhot .todaytitle{
+	height:81px;
+}
+
+.todayhot .todaytitle h4{
+	margin-top: 8px;
+	font-size:24px;
+	font-weight: 700;
+	line-height: 72px;
+	height:72px;
+	float: left;
+	color: #222;
+}
+
+.todayhot .todaytitle span{
+	font-size:18px;
+	line-height: 67px;
+	height:67px;
+	float: left;
+	color:#999;
+	margin:13px 0 0 18px;
+}
+
+.todaygoods{
+	background:#fff;
+	border:1px solid #e5e5e5;
+	height:350px;
+	padding:6px 0 6px 6px;
+	margin-bottom: 15px;
+}
+
+.todaygoods .bigpic{
+	float:left;
+	position: relative;
+	width:750px;
+	height:350px;
+}
+
+.todaygoods .bigpic img{
+	width:750px;
+	height:350px;
+	vertical-align: top;
+}
+
+.todaygoods .bigpic span{
+	position:absolute;
+	right:0;
+	top:14px;
+	border-top:10px solid transparent;
+	border-right:12px solid #fff;
+	border-bottom:10px solid transparent;
+}
+
+.todaygoods .smallpic{
+	float:left;
+	width:306px;
+	height:350px;
+	padding:0 18px;
+}
+
+.todaygoods .smallpic dl{
+	padding:18px 15px;
+	border-bottom:1px dashed #c4c4c4;
+}
+
+.todaygoods .smallpic dl.atborder{
+	border:0;
+}
+.todaygoods .smallpic dl dt img{
+	width:72px;
+	height:72px;
+	vertical-align: top;
+}
+
+.todaygoods .smallpic dl dt{
+	float:left;
+	width:78px;
+	height:78px;
+	border:1px solid #efefef;
+	text-align: center;
+	position: relative;
+}
+
+.todaygoods .smallpic dl dt:hover img{
+	opacity:.88;
+	filter:alpha(opacity=88);
+}
+
+.todaygoods .smallpic dl dt i{
+	position:absolute;
+	left:0;
+	top:0;
+	width:42px;
+	height:18px;
+	background:url(../img/top.png) no-repeat 0 0;
+}
+
+.todaygoods .smallpic dl dt .itwo{
+	background-position:0 -20px;
+}
+
+.todaygoods .smallpic dl dt .ithree{
+	background-position:0 -40px;
+}
+
+.todaygoods .smallpic dl dd{
+	float:left;
+	width:184px;
+	padding-left:12px;
+	padding-top:4px;
+}
+
+.todaygoods .smallpic dl dd p{
+	width:184px;
+	height:39px;
+	line-height:20px;
+}
+
+.todaygoods .smallpic dl dd .nowprice{
+	line-height: 26px;
+	float: left;
+	color:#fa4b9b;
+	height:26px;
+	margin-top: 11px;
+}
+
+.todaygoods .smallpic dl dd .nowprice em{
+	font-size:16px;
+}
+
+.todaygoods .smallpic dl dd .oldprice{
+	line-height: 21px;
+	height:21px;
+	float: left;
+	text-decoration: line-through;
+	font-size:10px;
+	margin-left:6px;
+	margin-top:16px;
+	color:#999999;
+}
+
+
+/***************************about common.css*************************************/
+
+.nav .nav-main .allgoods .goodsmain{
+	visibility: visible;
+}
+
+.nav .nav-main .allgoods .goodshead .jiantou-2{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
